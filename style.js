@@ -22,3 +22,9 @@ $(document).ready(function(){
       backSpeed:60,
       loop:true
     });
+
+    ////perloader
+
+    $(window).on("load",function(){
+        $('#preloader').fadeOut(2500);
+    })
