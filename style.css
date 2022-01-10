@@ -187,9 +187,10 @@ body
 .projects
 {
     display: inline-block;
-    width: 400px;
+    width: 350px;
     height: auto;
     margin: 40px;
+    margin-left: 70px;
     background-color: azure;
     border-radius: 6px;
     box-shadow: 5px 5px 10px 8px rgba(243, 243, 243, 0.589);
@@ -203,7 +204,7 @@ body
 }
 .projects p
 {
-    width: 380px;
+    width: 338px;
     font-size: 0.8rem;
     margin: 10px;
 }
@@ -213,10 +214,11 @@ body
     margin: 5px;
     color: rgb(201, 41, 223);
     letter-spacing: 3px;
+    font-size: 0.9rem;
 }
 .projects button
 {
-    width: 150px;
+    width: 140px;
     height: 40px;
     text-align: center;
     margin: 15px;
@@ -236,8 +238,8 @@ body
 }
 .projects img
 {
-    width: 380px;
-    height: 200px;
+    width: 330px;
+    height: 180px;
     align-items: center;
     margin: 10px;
 }
