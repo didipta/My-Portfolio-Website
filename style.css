@@ -182,7 +182,7 @@ body
     text-align: center;
     margin: 10px;
     color: rgb(219, 36, 97);
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 .projects
 {
@@ -327,5 +327,14 @@ body
 {
     position: relative;
     top: 250px;
+}
+.projects
+{
+    margin: 20px;
+    margin-left: 40px;
+}
+.project .heading
+{
+    margin: 3px;
 }
 }
