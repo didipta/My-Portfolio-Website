@@ -60,10 +60,19 @@ body
 .navigation ul li 
 {
     display: inline-block;
-    padding: 15px;
-    padding-left: 35px;
+    margin: 15px;
+    margin-left: 35px;
+    padding: 10px;
+    
    
 
+}
+.navigation ul li:hover
+{
+    background-color: rgba(255, 0, 119, 0.185);
+    border: 1px solid rgba(255, 0, 119, 0.596);
+    border-radius: 3px;
+    color: rgb(240, 240, 240);
 }
 .navigation ul li a
 {
@@ -72,6 +81,7 @@ body
     font-size: 1rem;
 
 }
+
 .navigation .menu 
 {
     margin: 20px;
@@ -81,6 +91,41 @@ body
     font-size: 1.3rem;
     color: rgb(75, 75, 75);
     cursor: pointer;
+}
+.contain
+{
+    width: 100%;
+    position: relative;
+    top: 5vw;
+    
+}
+.contain .heading
+{
+    margin:100px;
+    margin-left: 250px;
+    margin-top: 100px;
+    color: rgb(233, 233, 233);
+}
+.contain .heading p ,.contain .heading h5
+{
+    margin: 10px;
+    font-size: 1.2rem;
+    font: weight 900px;
+    letter-spacing: 3px;
+}
+.contain .heading h1
+{
+    margin: 10px;
+    font-size: 3rem;
+    font: weight 900px;
+    letter-spacing: 6px;
+    color: rgb(229, 255, 0);
+}
+.types
+{
+    color: rgb(255, 0, 157);
+    font-size: 1.6rem;
+    margin-left: 5px;
 }
 @media only screen and (max-width:1150px) {
 .navigation .logo
@@ -109,6 +154,12 @@ body
 {
     display: block;
 }
-
+.contain .heading
+{
+    margin:10px;
+    margin-left: 25px;
+    margin-top: 50px;
+ 
+}
 
 }
