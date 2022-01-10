@@ -78,15 +78,22 @@ body
     position: absolute;
     right: 0;
     display: none;
+    font-size: 1.3rem;
+    color: rgb(75, 75, 75);
+    cursor: pointer;
 }
 @media only screen and (max-width:1150px) {
 .navigation .logo
 {
     margin-left: 0;
 }
-.navigation
+#nav
 {
-    height: 350px;
+    display: none;
+}
+#back-menu
+{
+    display: none;
 }
  .navigation ul 
  {
