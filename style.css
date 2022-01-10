@@ -181,7 +181,7 @@ body
 {
     text-align: center;
     margin: 10px;
-    color: rgb(219, 36, 97);
+    color: rgb(255, 1, 99);
     font-size: 1rem;
 }
 .projects
@@ -204,14 +204,18 @@ body
 }
 .projects p
 {
-    width: 338px;
+    width: 320px;
     font-size: 0.8rem;
-    margin: 10px;
+    margin: 15px;
+    padding: 10px;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
 }
 .projects h2 ,.project h5
 {
     text-align: center;
     margin: 5px;
+    margin-top: 10px;
     color: rgb(201, 41, 223);
     letter-spacing: 3px;
     font-size: 0.9rem;
@@ -222,6 +226,7 @@ body
     height: 40px;
     text-align: center;
     margin: 15px;
+    margin-bottom: 20px;
     border: 2px solid rgb(255, 0, 98);
     background-color: rgb(240, 44, 93);
     font-weight: 900;
