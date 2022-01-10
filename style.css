@@ -159,7 +159,21 @@ body
     margin:10px;
     margin-left: 25px;
     margin-top: 50px;
- 
 }
-
+.contain .heading p ,.contain .heading h5
+{
+    font-size: 1rem;
+}
+.contain .heading h1
+{
+    
+    font-size: 2.4rem;
+    
+}
+.types
+{
+    
+    font-size: 1.3rem;
+   
+}
 }
