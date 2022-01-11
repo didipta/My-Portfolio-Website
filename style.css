@@ -199,8 +199,10 @@ button
     width: 100%;
     position: relative;
     top: 4vw;
+    padding: 10px;
+    text-align: center;
 }
-.project .heading
+.project .heading,.contact .heading
 {
     text-align: center;
     margin: 10px;
@@ -213,11 +215,12 @@ button
     width: 350px;
     height: auto;
     margin: 40px;
-    margin-left: 70px;
+    margin-left: 50px;
     background-color: azure;
     border-radius: 6px;
     box-shadow: 5px 5px 10px 8px rgba(243, 243, 243, 0.589);
     opacity: .9;
+    
 }
 .projects:hover
 {
@@ -229,10 +232,12 @@ button
 {
     width: 300px;
     font-size: 0.8rem;
-    margin: 15px;
+    margin: 10px;
     padding: 10px;
     line-height: 1.5rem;
     letter-spacing: 1px;
+    text-justify: inter-word;
+    text-align:initial;
 }
 .sce-more
 {
@@ -285,6 +290,42 @@ button
     align-items: center;
     margin: 10px;
 }
+.contact
+{
+    position: relative;
+    top: 3vw;
+    padding: 50px;
+    text-align: center;
+}
+.contacts
+{
+    display: inline-block;
+    margin-top: 20px;
+    margin: 10px;
+    margin-left: 20px;
+}
+.contacts a
+{
+    font-size: 1.5rem;
+    color: rgb(203, 211, 240);
+}
+.contacts a i
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(252, 0, 189);
+    padding: 25px;
+    padding-top: 30px;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    margin: 10px;
+    box-shadow: 2px 1px 5px 1px rgba(231, 152, 231, 0.726);
+}
+.contacts a h5
+{
+  margin: 10px;
+  letter-spacing: 3px;
+}
 @media only screen and (max-width:1250px) {
 .navigation .logo
 {
@@ -319,10 +360,10 @@ button
 }
 .contain .img-developer
 {
-    margin: 1px;
+    margin: 5px;
     margin-left: 10px;
     position: relative; 
-    top: -200px;
+    top: -190px;
     display: grid; 
     place-items: center; 
     
@@ -342,7 +383,7 @@ button
     margin-left: 25px;
     margin-top: 50px;
     position: relative;
-    top: 400px; 
+    top: 350px; 
  
 }
 .contain .heading p ,.contain .heading h5
@@ -377,12 +418,16 @@ button
 .project
 {
     position: relative;
-    top: 130px;
+    top: 90px;
 
 }
 .projects
 {
-    margin: 30px;
+   
+    margin: 10px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-top: 30px;
     
 
 }
