@@ -12,7 +12,56 @@ $(document).ready(function(){
         document.getElementById("back-menu").style.display="none";
         document.getElementById("navigation").style.height="";
     });
+
+ 
   });
+
+  $(document).ready(function(){
+  $("#sce1").click(function(){
+      
+    document.getElementById("sce-more1").style.display="block";
+    document.getElementById("sce1").style.display="none";
+});
+$("#sce-more1").click(function(){
+      
+    document.getElementById("sce-more1").style.display="none";
+    document.getElementById("sce1").style.display="block";
+    
+});
+$("#sce2").click(function(){
+      
+    document.getElementById("sce-more2").style.display="block";
+    document.getElementById("sce2").style.display="none";
+});
+$("#sce-more2").click(function(){
+      
+    document.getElementById("sce-more2").style.display="none";
+    document.getElementById("sce2").style.display="block";
+    
+});
+$("#sce3").click(function(){
+      
+    document.getElementById("sce-more3").style.display="block";
+    document.getElementById("sce3").style.display="none";
+});
+$("#sce-more3").click(function(){
+      
+    document.getElementById("sce-more3").style.display="none";
+    document.getElementById("sce3").style.display="block";
+    
+});
+$("#sce4").click(function(){
+      
+    document.getElementById("sce-more4").style.display="block";
+    document.getElementById("sce4").style.display="none";
+});
+$("#sce-more4").click(function(){
+      
+    document.getElementById("sce-more4").style.display="none";
+    document.getElementById("sce4").style.display="block";
+    
+});
+});
 
   //typing 
 
@@ -26,5 +75,5 @@ $(document).ready(function(){
     ////perloader
 
     $(window).on("load",function(){
-        $('#preloader').fadeOut(2500);
+        $('#preloader').fadeOut(1500);
     })

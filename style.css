@@ -15,6 +15,22 @@ body
     width: 100%;
     background-color: rgb(31, 31, 48);
 }
+::-webkit-scrollbar
+{
+    width: 10px;
+    
+}
+::-webkit-scrollbar-track
+{
+    border-radius: 5px;
+    box-shadow: inset 1px 0px 0px rgba(178, 161, 228, 0.548);
+
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 5px;
+    background-color: #5577e7;
+}
 #preloader
 {
     background:#000000 url(img/preloader.gif) no-repeat center center;
@@ -205,13 +221,23 @@ body
 }
 .projects p
 {
-    width: 320px;
-    height: 250px;
+    width: 300px;
     font-size: 0.8rem;
     margin: 15px;
     padding: 10px;
     line-height: 1.5rem;
     letter-spacing: 1px;
+}
+.sce-more
+{
+    display: none;
+}
+.sce
+{
+    color: rgb(98, 112, 235);
+    font-weight: 900;
+    cursor: pointer;
+   
 }
 .projects h2 ,.project h5
 {
@@ -228,7 +254,8 @@ body
     width: 140px;
     height: 40px;
     text-align: center;
-    margin: 15px;
+    margin: 5px;
+    margin-left: 15px;
     margin-bottom: 20px;
     border: 2px solid rgb(255, 0, 98);
     background-color: rgb(240, 44, 93);
@@ -238,6 +265,7 @@ body
     color: rgb(255, 255, 255);
     border-radius: 5px;
     cursor: pointer;
+    outline: none;
 
 }
 .project h5
