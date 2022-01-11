@@ -280,7 +280,12 @@ body
     margin: 10px;
 }
 @media only screen and (max-width:1150px) {
-
+    #preloader
+    {
+        background-size: 40%;
+        
+      
+    }
 .navigation .logo
 {
     margin-left: 0;
