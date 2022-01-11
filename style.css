@@ -29,9 +29,10 @@ body
 {
     display: flex;
     width: 100%;
-    position: relative;
+    position:fixed;
+    top: 0;
     background-color: rgb(255, 255, 255);
-    
+    z-index: 1;
     
     
 }
@@ -205,6 +206,7 @@ body
 .projects p
 {
     width: 320px;
+    height: 250px;
     font-size: 0.8rem;
     margin: 15px;
     padding: 10px;
@@ -216,7 +218,8 @@ body
     text-align: center;
     margin: 5px;
     margin-top: 10px;
-    color: rgb(201, 41, 223);
+    color: rgb(225, 0, 255);
+    font-weight: 900;
     letter-spacing: 3px;
     font-size: 0.9rem;
 }
