@@ -332,11 +332,13 @@ body
 {
     position: relative;
     top: 250px;
+
 }
 .projects
 {
     margin: 20px;
-    margin-left: 40px;
+    margin-left: 50px;
+
 }
 .project .heading
 {
