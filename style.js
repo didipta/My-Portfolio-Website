@@ -75,5 +75,5 @@ $("#sce-more4").click(function(){
     ////perloader
 
     $(window).on("load",function(){
-        $('#preloader').fadeOut(2000);
+        $('#preloader').fadeOut(500);
     })
