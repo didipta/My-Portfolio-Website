@@ -303,6 +303,8 @@ button
     margin-top: 20px;
     margin: 10px;
     margin-left: 20px;
+    overflow: hidden;
+    outline: none;
 }
 .contacts a
 {
@@ -313,13 +315,13 @@ button
 {
     width: 100px;
     height: 100px;
-    background-color: rgb(252, 0, 189);
+    background-color: rgb(44, 44, 43);
     padding: 25px;
     padding-top: 30px;
     border-radius: 50%;
     font-size: 2.5rem;
     margin: 10px;
-    box-shadow: 2px 1px 5px 1px rgba(231, 152, 231, 0.726);
+    box-shadow: 2px 1px 5px 1px rgba(248, 248, 248, 0.726);
 }
 .contacts a h5
 {
@@ -434,5 +436,10 @@ button
 .project .heading
 {
     margin: 3px;
+}
+.contact
+{
+    position: relative;
+    top: 5vw;
 }
 }
