@@ -43,6 +43,7 @@ button
     height: 100vh;
     width: 100%;
     position: fixed;
+    top: 0;
     z-index: 1000;
   
 }
@@ -285,16 +286,6 @@ button
     margin: 10px;
 }
 @media only screen and (max-width:1250px) {
-
-    *{
-        font-size: 1rem;
-    }
-    #preloader
-    {
-        background-size: 25%;
-        
-      
-    }
 .navigation .logo
 {
     margin-left: 0;
