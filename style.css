@@ -15,6 +15,11 @@ body
     width: 100%;
     background-color: rgb(31, 31, 48);
 }
+button
+{
+    outline: none;
+    overflow: hidden;
+}
 ::-webkit-scrollbar
 {
     width: 10px;
@@ -279,10 +284,14 @@ body
     align-items: center;
     margin: 10px;
 }
-@media only screen and (max-width:1150px) {
+@media only screen and (max-width:1250px) {
+
+    *{
+        font-size: 1rem;
+    }
     #preloader
     {
-        background-size: 40%;
+        background-size: 25%;
         
       
     }
@@ -321,11 +330,17 @@ body
 {
     margin: 1px;
     margin-left: 10px;
+    position: relative; 
+    top: -200px;
+    display: grid; 
+    place-items: center; 
     
 }
 .contain .img-developer img{
     width: 90%;
-    height: 300px;
+    max-width: 500px;
+    max-height: 390px;
+    
 
 }
 .contain .heading
@@ -333,13 +348,15 @@ body
     margin:10px;
     margin-left: 25px;
     margin-top: 50px;
-    position: absolute;
-    top: 280px;
+    position: relative;
+    top: 400px; 
+ 
 }
 .contain .heading p ,.contain .heading h5
 {
     margin: 5px;
     font-size: 1rem;
+
 }
 .contain .heading h1
 {
@@ -367,13 +384,13 @@ body
 .project
 {
     position: relative;
-    top: 250px;
+    top: 100px;
 
 }
 .projects
 {
-    margin: 20px;
-    margin-left: 50px;
+    margin: 30px;
+    
 
 }
 .project .heading
