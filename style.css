@@ -329,6 +329,7 @@ button
 }
 .contain .img-developer img{
     width: 90%;
+    height: 300px;
     max-width: 500px;
     max-height: 390px;
     
@@ -337,6 +338,7 @@ button
 .contain .heading
 {
     margin:10px;
+    margin-bottom: 20px;
     margin-left: 25px;
     margin-top: 50px;
     position: relative;
@@ -375,7 +377,7 @@ button
 .project
 {
     position: relative;
-    top: 100px;
+    top: 130px;
 
 }
 .projects
