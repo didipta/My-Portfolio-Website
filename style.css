@@ -358,6 +358,11 @@ button
  text-align: center;
  padding: 10px;
 }
+.about-detail h2,.about-detail h3,.about-detail p
+{
+    margin: 5px;
+    font-size: 1.2rem;
+}
 .About .about-detail img{
 
     width: 200px;
@@ -546,5 +551,10 @@ h3 {
 {
     position: relative;
     top: 5vw;
+}
+.about-detail h2,.about-detail h3,.about-detail p
+{
+    margin: 5px;
+    font-size: 1rem;
 }
 }
