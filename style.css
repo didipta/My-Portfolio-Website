@@ -135,21 +135,21 @@ button
     display: flex;
     
 }
-.contain .heading
+.contain .headings
 {
     margin:100px;
     margin-left: 200px;
     margin-top: 100px;
     color: rgb(233, 233, 233);
 }
-.contain .heading p ,.contain .heading h5
+.contain .headings p ,.contain .headings h5
 {
     margin: 10px;
     font-size: 1.2rem;
     font: weight 900px;
     letter-spacing: 3px;
 }
-.contain .heading h1
+.contain .headings h1
 {
     margin: 10px;
     font-size: 3rem;
@@ -163,7 +163,7 @@ button
     font-size: 1.6rem;
     margin-left: 5px;
 }
-.contain .heading button
+.contain .headings button
 {
     width: 200px;
     height: 50px;
@@ -180,7 +180,7 @@ button
     box-shadow: 1px 5px 5px 3px rgba(132, 0, 255, 0.39);
     cursor: pointer;
 }
-.contain .heading button:hover,.projects button:hover
+.contain .headings button:hover,.projects button:hover
 {
     color: rgb(214, 214, 214);
 }
@@ -300,7 +300,7 @@ button
 .contacts
 {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 30px;
     margin: 10px;
     margin-left: 20px;
     overflow: hidden;
@@ -338,13 +338,17 @@ button
     position: relative;
     top: 4vw;
     text-align: center;
+    margin-bottom: 50px;
+
    
  
 }
 .about-detail
 {
-    background-color: rgb(247, 247, 247);
+    
     margin: 50px;
+    color: rgb(182, 182, 182);
+    margin-bottom: 100px;
 
 }
 .about-detail-img
@@ -358,6 +362,75 @@ button
     height: 200px;
     border-radius: 50%;
 }
+.footer
+{
+    text-align: center;
+    color: rgb(212, 212, 212);
+    position: relative;
+    top: 10vw;
+}
+.footer p
+{
+    font-size: 0.8rem;
+    margin: 10px;
+
+}
+
+.Skill
+{
+    text-align: center;
+    position: relative;
+    top: 5vw;
+}
+#bars {
+	margin: 1em auto;
+	max-width: 960px;
+	overflow: hidden;
+    
+}
+
+.bar {
+	display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    
+}
+
+.bar h3 {
+	font-size: 1rem;
+	font-weight: normal;
+	margin: 0;
+	text-transform: uppercase;
+    color: rgb(231, 231, 231);
+}
+
+.bar-circle {
+	display: block;
+	margin: 0.7em auto;
+}
+
+h3 {
+	display:inline-block;
+	margin-left:25px;
+	cursor:pointer;
+}
+#names {
+  text-align:center;
+}
+.bactive {
+	border-bottom:3px solid #f80b52;
+		font-weight:800;
+}
+.sbar {
+  display:none;
+}
+
+
+
+
+
+
+
 @media only screen and (max-width:1250px) {
 .navigation .logo
 {
@@ -408,7 +481,7 @@ button
     
 
 }
-.contain .heading
+.contain .headings
 {
     margin:10px;
     margin-bottom: 20px;
@@ -418,13 +491,13 @@ button
     top: 350px; 
  
 }
-.contain .heading p ,.contain .heading h5
+.contain .headings p ,.contain .headings h5
 {
     margin: 5px;
     font-size: 1rem;
 
 }
-.contain .heading h1
+.contain .headings h1
 {
     margin: 5px;
     font-size: 2.4rem;
@@ -440,7 +513,7 @@ button
 {
     margin-top: 5px;
 }
-.contain .heading button
+.contain .headings button
 {
     width: 150px;
     height: 40px;
