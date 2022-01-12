@@ -202,7 +202,7 @@ button
     padding: 10px;
     text-align: center;
 }
-.project .heading,.contact .heading
+.heading 
 {
     text-align: center;
     margin: 10px;
@@ -313,20 +313,50 @@ button
 }
 .contacts a i
 {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(44, 44, 43);
-    padding: 25px;
-    padding-top: 30px;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(70, 36, 224);
+    padding: 20px;
+    padding-top: 25px;
     border-radius: 50%;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 10px;
     box-shadow: 2px 1px 5px 1px rgba(248, 248, 248, 0.726);
 }
 .contacts a h5
 {
-  margin: 10px;
-  letter-spacing: 3px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.contacts a:hover
+{
+    color: rgb(231, 175, 22);
+}
+.About
+{
+    position: relative;
+    top: 4vw;
+    text-align: center;
+   
+ 
+}
+.about-detail
+{
+    background-color: rgb(247, 247, 247);
+    margin: 50px;
+
+}
+.about-detail-img
+{
+ text-align: center;
+ padding: 10px;
+}
+.About .about-detail img{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 @media only screen and (max-width:1250px) {
 .navigation .logo
