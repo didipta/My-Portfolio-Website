@@ -349,7 +349,8 @@ button
     
     margin: 50px;
     color: rgb(182, 182, 182);
-    margin-bottom: 100px;
+    margin-bottom: 70px;
+    padding: 10px;
 
 }
 .about-detail-img
@@ -381,7 +382,7 @@ button
 {
     text-align: center;
     position: relative;
-    top: 5vw;
+    top: 4vw;
 }
 #bars {
 	margin: 1em auto;
