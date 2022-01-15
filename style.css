@@ -138,7 +138,6 @@ button
 }
 .contain .headings
 {
-    width: 420px;
     margin:100px;
     margin-left: 200px;
     margin-top: 100px;
@@ -272,14 +271,19 @@ button
     margin-left: 15px;
     margin-bottom: 20px;
     border: 2px solid rgb(255, 0, 98);
-    background-color: rgb(240, 44, 93);
+    background-color: rgb(236, 14, 88);
     font-weight: 900;
     font-size: 1rem;
     letter-spacing: 2px;
     color: rgb(255, 255, 255);
     border-radius: 5px;
     cursor: pointer;
-    outline: none;
+    outline: transparent;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
 
 }
 .project h5
@@ -318,7 +322,8 @@ button
 {
     width: 80px;
     height: 80px;
-    background-color: rgb(70, 36, 224);
+    background-color: rgb(243, 242, 248);
+    color: rgb(15, 20, 46);
     padding: 20px;
     padding-top: 25px;
     border-radius: 50%;
@@ -376,7 +381,7 @@ button
     text-align: center;
     color: rgb(212, 212, 212);
     position: relative;
-    top: 10vw;
+    top: 5vw;
 }
 .footer p
 {
@@ -558,5 +563,24 @@ h3 {
 {
     margin: 5px;
     font-size: 1rem;
+}
+.About .about-detail img{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.contacts a i
+{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(243, 242, 248);
+    color: rgb(15, 20, 46);
+    padding: 15px;
+    padding-top: 20px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    margin: 10px;
+    box-shadow: 2px 1px 5px 1px rgba(248, 248, 248, 0.726);
 }
 }

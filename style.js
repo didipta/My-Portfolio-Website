@@ -66,7 +66,7 @@ $("#sce-more4").click(function(){
   //typing 
 
   var typed=new Typed(".types",{
-      strings:["Student","Web Developer","Desiger","App Developer"],
+      strings:["Student","Web Developer","Desiger","App Developer","UX/UI desiger"],
       typeSpeed:100,
       backSpeed:60,
       loop:true
@@ -78,6 +78,12 @@ $("#sce-more4").click(function(){
         $('#preloader').fadeOut(2000);
     });
 
+
+
+    window.addEventListener("Click",function(){
+        var header=document.querySelector("navigation ul li");
+        header.classList.toggle("nonehead", button.click );
+    });
 
 
 
