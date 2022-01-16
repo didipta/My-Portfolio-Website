@@ -135,6 +135,7 @@ button
     top: 5vw;
     display: flex;
     
+    
 }
 .contain .headings
 {
@@ -319,24 +320,18 @@ button
     font-size: 1.5rem;
     color: rgb(203, 211, 240);
 }
-.contacts a i
+.contacts a img
 {
-    width: 80px;
-    height: 80px;
-    background-color: rgb(243, 242, 248);
-    color: rgb(15, 20, 46);
-    padding: 20px;
-    padding-top: 25px;
-    border-radius: 50%;
-    font-size: 2rem;
+    width: 50px;
+    height: 50px;
     margin: 10px;
-    box-shadow: 2px 1px 5px 1px rgba(248, 248, 248, 0.726);
+   
 }
 .contacts a h5
 {
     font-size: 0.9rem;
     letter-spacing: 1px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .contacts a:hover
 {
