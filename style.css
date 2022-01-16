@@ -218,7 +218,7 @@ button
     height: auto;
     margin: 40px;
     margin-left: 50px;
-    background-color: azure;
+    background-color: #f7f7f7;
     border-radius: 6px;
     box-shadow: 5px 5px 10px 8px rgba(243, 243, 243, 0.589);
     opacity: .9;
@@ -293,9 +293,10 @@ button
 .projects img
 {
     width: 330px;
-    height: 180px;
+    height: 250px;
     align-items: center;
     margin: 10px;
+    border:none;
 }
 .contact
 {
