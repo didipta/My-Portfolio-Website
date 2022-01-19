@@ -66,9 +66,9 @@ $("#sce-more4").click(function(){
   //typing 
 
   var typed=new Typed(".types",{
-      strings:["Student","Web Developer","Desiger","App Developer","UX/UI desiger"],
-      typeSpeed:100,
-      backSpeed:60,
+      strings:["Student.","Web Developer.","Desiger.","App Developer.","UX/UI desiger."],
+      typeSpeed:150,
+      backSpeed:100,
       loop:true
     });
 
