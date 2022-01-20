@@ -188,7 +188,7 @@ button
 }
 .contain .headings button:hover,.projects button:hover
 {
-    color: rgb(150, 150, 150);
+    color: rgb(197, 197, 197);
 }
 .contain .img-developer
 {
@@ -223,7 +223,7 @@ button
     height: auto;
     margin: 40px;
     margin-left: 50px;
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     border-radius: 6px;
     box-shadow: 5px 5px 10px 8px rgba(243, 243, 243, 0.589);
     opacity: .9;
@@ -232,7 +232,7 @@ button
 .projects:hover
 {
     box-shadow: 5px 5px 15px 8px rgba(170, 151, 240, 0.589);
-    border: 2px solid rgb(255, 3, 3);
+   
     opacity: 1;
 }
 .projects p
@@ -261,8 +261,8 @@ button
 {
     text-align: center;
     margin: 5px;
-    margin-top: 10px;
-    color: rgb(225, 0, 255);
+    margin-top: 20px;
+    color: rgb(255, 0, 76);
     font-weight: 900;
     letter-spacing: 3px;
     font-size: 0.9rem;
@@ -294,14 +294,28 @@ button
 .project h5
 {
     color: rgb(54, 54, 54);
+    font-weight: 900;
 }
-.projects img
+.projects .project-img
+{
+    width: 350px;
+    height: 250px;
+    align-items: center;
+    background-color: black;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    overflow: hidden;
+}
+.projects .project-img img
 {
     width: 330px;
     height: 250px;
-    align-items: center;
-    margin: 10px;
-    border:none;
+    
+}
+.project-img img:hover
+{
+    transform: scale(1.2);
+	transition:3s transform;
 }
 .contact
 {

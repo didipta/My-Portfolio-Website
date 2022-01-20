@@ -61,6 +61,17 @@ $("#sce-more4").click(function(){
     document.getElementById("sce4").style.display="block";
     
 });
+$("#sce5").click(function(){
+      
+    document.getElementById("sce-more5").style.display="block";
+    document.getElementById("sce5").style.display="none";
+});
+$("#sce-more5").click(function(){
+      
+    document.getElementById("sce-more5").style.display="none";
+    document.getElementById("sce5").style.display="block";
+    
+});
 });
 
   //typing 
