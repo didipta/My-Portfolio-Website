@@ -135,28 +135,23 @@ button
     position: relative;
     top: 5vw;
     display: flex;
-    background-color: #ffffff;
+    
     
     
 }
-.wave
-{
-    
-   
-   
-}
+
 .contain .headings
 {
     margin:100px;
     margin-left: 200px;
     margin-top: 100px;
-    color: rgb(53, 53, 53);
+    color: rgb(211, 211, 211);
 }
 .contain .headings p ,.contain .headings h5
 {
     margin: 10px;
     font-size: 1.2rem;
-    font-weight: 900;
+    font-weight: 600;
     letter-spacing: 3px;
 }
 .contain .headings h1
@@ -165,7 +160,7 @@ button
     font-size: 3rem;
     font: weight 900px;
     letter-spacing: 6px;
-    color: rgb(26, 20, 58);
+    color: rgb(235, 62, 19);
 }
 
 .types
@@ -183,7 +178,7 @@ button
     font-weight: 900;
     border-radius: 8px;
     outline: none;
-    color: rgb(49, 49, 49);
+    color: rgb(235, 235, 235);
     border: 3px solid rgb(132, 0, 255);
     background-color: rgba(132, 0, 255, 0.274);
     font-size: 1rem;
@@ -209,7 +204,7 @@ button
 {
     width: 100%;
     position: relative;
-    top: 1vw;
+    top: 5vw;
     padding: 10px;
     text-align: center;
 }
