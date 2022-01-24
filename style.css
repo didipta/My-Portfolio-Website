@@ -134,17 +134,31 @@ button
     width: 100%;
     position: relative;
     top: 5vw;
-    display: flex;
     
     
     
 }
+.contain .img-developer
+{
+    width: 100%;
+    height: 100vh;
+}
+.contain .img-developer img{
+   width: 600px;
+   height: 500px;
+   position:absolute;
+   right: 0;
+   margin:50px;
 
+}
 .contain .headings
 {
-    margin:100px;
-    margin-left: 200px;
-    margin-top: 100px;
+    width: 400px;
+    position:absolute;
+    top: 0;
+    margin: 50px;
+    margin-top: 150px;
+    margin-left: 10%;
     color: rgb(211, 211, 211);
 }
 .contain .headings p ,.contain .headings h5
@@ -190,16 +204,7 @@ button
 {
     color: rgb(197, 197, 197);
 }
-.contain .img-developer
-{
-    margin: 10px;
-    margin-left: 120px;
-}
-.contain .img-developer img{
-    margin: 20px;
-    width: 100%;
 
-}
 .project
 {
     width: 100%;
@@ -502,48 +507,48 @@ h3 {
 }
 .contain .img-developer
 {
-    margin: 5px;
-    margin-left: 10px;
-    position: relative; 
-    top: -190px;
-    display: grid; 
-    place-items: center; 
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.089);
+ 
+    
+    
     
 }
 .contain .img-developer img{
-    width: 90%;
-    height: 300px;
-    max-width: 500px;
-    max-height: 390px;
-    
+   display: none;
 
 }
 .contain .headings
 {
-    margin:10px;
-    margin-bottom: 20px;
-    margin-left: 25px;
-    margin-top: 50px;
-    position: relative;
-    top: 350px; 
+    width: 400px;
+    position:absolute;
+    top: 1%;
+    left: 50%;
+    margin: 0;
+    transform: translateX(-50%);
+    margin-left: 0;
+    margin-top:100px;
+    color: rgb(211, 211, 211);
+    font-size: .7rem;
  
 }
 .contain .headings p ,.contain .headings h5
 {
     margin: 5px;
-    font-size: 1rem;
+    font-size: .7rem;
 
 }
 .contain .headings h1
 {
     margin: 5px;
-    font-size: 2.4rem;
+    font-size: 2rem;
     
 }
 .types
 {
     
-    font-size: 1.3rem;
+    font-size: 1rem;
    
 }
 .navigation .logo h3
