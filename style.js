@@ -72,6 +72,17 @@ $("#sce-more5").click(function(){
     document.getElementById("sce5").style.display="block";
     
 });
+$("#sce0").click(function(){
+      
+    document.getElementById("sce-more0").style.display="block";
+    document.getElementById("sce0").style.display="none";
+});
+$("#sce-more0").click(function(){
+      
+    document.getElementById("sce-more0").style.display="none";
+    document.getElementById("sce0").style.display="block";
+    
+});
 });
 
   //typing 
