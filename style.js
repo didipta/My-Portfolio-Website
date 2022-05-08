@@ -88,7 +88,7 @@ $("#sce-more0").click(function(){
   //typing 
 
   var typed=new Typed(".types",{
-      strings:["Student.","Web Developer.","Desiger.","App Developer.","UX/UI desiger."],
+      strings:["Student."],
       typeSpeed:150,
       backSpeed:100,
       loop:true
