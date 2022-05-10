@@ -140,7 +140,7 @@ $("#sce-more0").click(function(){
                 self.diff = ( ( self.loaded / 100 ) * Math.PI * 2 * 10 ).toFixed( 2 );	
                 self.context.clearRect( 0, 0, self.width, self.height );
                 self.context.lineWidth = 4;
-                self.context.fillStyle = "rgb(212, 212, 212)";
+                self.context.fillStyle = "rgb(75, 75, 75)";
                 self.context.strokeStyle = "#f80b52";
                 self.context.textAlign = "center";
                 
