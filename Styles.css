@@ -15,7 +15,7 @@
 body
 {
     width: 100%;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(255, 255, 255);
 }
 button
 {
@@ -136,6 +136,7 @@ button
     width: 100%;
     position: relative;
     top: 5vw;
+    background-color: rgb(240, 248, 255);
     
     
     
