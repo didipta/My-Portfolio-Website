@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="Styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" ></script>
     <script src="https://kit.fontawesome.com/067dbad983.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title> My Portfolio Website </title>
 </head>
 <body>
@@ -45,11 +46,11 @@
     
     </div>
   
-    <div class="project" id="project">
-        <div class="heading">
+    <div class="project" id="project" >
+        <div class="heading" data-aos="fade-up">
             <h3>-----My University Project-----</h3>
         </div>
-        <div class="projects">
+        <div class="projects" data-aos="flip-left" >
             <div class="project-img"><iframe width="350" height="250" src="https://www.youtube.com/embed/s4PTP4YEOSc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
             <h2>Advance .Net (ASP.NET)</h2>
             <h5>Online Medicine Service</h5>
@@ -66,7 +67,7 @@
                 
             </div>
         </div>
-        <div class="projects">
+        <div class="projects" data-aos="flip-right">
             <div class="project-img"><iframe width="350" height="250" src="https://www.youtube.com/embed/EumSlaXtGdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
             <h2>Advance Web Designing</h2>
             <h5>Onlineshopping Website-Eflip </h5>
@@ -80,7 +81,7 @@
                 
             </div>
         </div>
-        <div class="projects">
+        <div class="projects" data-aos="flip-left">
             <div class="project-img"><iframe width="350" height="250" src="https://www.youtube.com/embed/zyKLKvHFu7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
             <h2> Web Designing</h2>
             <h5>Restaurant Website-Food-hub  </h5>
@@ -94,7 +95,7 @@
                 
             </div>
         </div>
-        <div class="projects">
+        <div class="projects" data-aos="flip-right">
             <div class="project-img"><iframe width="350" height="250" src="https://www.youtube.com/embed/rMcV3--k1yk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
             <h2> Desktop app(C#)</h2>
             <h5> Waste Management System </h5>
@@ -105,7 +106,7 @@
                 
             </div>
         </div>
-        <div class="projects">
+        <div class="projects" data-aos="flip-left">
             <div class="project-img"><img src="img/java1.jpg" alt="" srcset=""></div>
             <h2> Java Project</h2>
             <h5> University Management System  </h5>
@@ -117,7 +118,7 @@
                 
             </div>
         </div>
-        <div class="projects">
+        <div class="projects" data-aos="flip-right">
             <div class="project-img"><iframe width="350" height="250" src="https://www.youtube.com/embed/rrkHTuwKBvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
             <h2> Computer Graphics</h2>
             <h5> Beautiful Village Scenario </h5>
@@ -133,9 +134,9 @@
         
     </div>
 
-    <div class="contact" id="contact">
+    <div class="contact" id="contact" data-aos="zoom-in">
 
-        <div class="heading">
+        <div class="heading" data-aos="zoom-in-up">
             <h3>-----Contact Me-----</h3>
         </div>
 
@@ -174,7 +175,7 @@
             <h3>-----About-----</h3>
         </div>
 
-        <div class="about-detail">
+        <div class="about-detail" data-aos="zoom-in-up">
 
             <div class="about-detail-img">
                 <img src="img/aiub-logo.png" alt="">
@@ -186,7 +187,7 @@
             
     </div>
 
-    <div class="about-detail">
+    <div class="about-detail" data-aos="zoom-in-up">
 
         <div class="about-detail-img">
             <img src="img/chittagong-city-corporatio.png" alt="">
@@ -199,7 +200,7 @@
 </div>
 
 
-<div class="about-detail">
+<div class="about-detail" data-aos="zoom-in-up">
 
     <div class="about-detail-img">
         <img src="img/lamabazer.jpg" alt="">
@@ -211,7 +212,7 @@
     
 </div>
 
-<div class="about-detail">
+<div class="about-detail" data-aos="zoom-in-up">
 
     <div class="about-detail-img">
         <img src="img/dipta.jpg" alt="">
@@ -222,7 +223,7 @@
     
 </div>
 
-<div class="about-detail">
+<div class="about-detail" data-aos="zoom-in-up">
 
     <div class="about-detail-img">
         <img src="img/aiubcomputerclub.png" alt="">
@@ -292,5 +293,12 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="style.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 250,
+        duration: 1500
+      });
+    </script>
 </body>
 </html>
