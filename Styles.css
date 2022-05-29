@@ -134,7 +134,7 @@ button
 }
 .contain
 {
-    width: 100%;
+    max-width: 100%;
     position: relative;
     top: 5vw;
     background-color: rgb(240, 248, 255);
