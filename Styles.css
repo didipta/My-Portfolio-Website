@@ -144,7 +144,7 @@ button
 }
 .contain .img-developer
 {
-    width: 100%;
+    max-width: 100%;
     height: 100vh;
     overflow: hidden;
 }
@@ -525,7 +525,7 @@ h3 {
 }
 .contain .img-developer
 {
-    width: 100%;
+    max-width: 100%;
     height: 50vh;
     padding: 20px;
     background-color: rgba(206, 199, 252, 0.047);
