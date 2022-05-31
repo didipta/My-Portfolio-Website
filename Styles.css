@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Poppins:wght@300&family=Shippori+Antique&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    user-select: none;
+    transition: all;
+    transition: 0.3s;
+
+}
+body
+{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+button
+{
+    outline: none;
+    overflow: hidden;
+}
+::-webkit-scrollbar
+{
+    width: 10px;
+    
+}
+::-webkit-scrollbar-track
+{
+    border-radius: 5px;
+    box-shadow: inset 1px 0px 0px rgba(178, 161, 228, 0.548);
+
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 5px;
+    background-color: #5577e7;
+}
+#preloader
+{
+    background:#000000 url(img/preloader.gif) no-repeat center center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  
+}
+.navigation
+{
+    display: flex;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    background-color: rgb(253, 253, 253);
+    z-index: 1;
+    box-shadow: 1px 5px 10px 1px rgba(110, 110, 110, 0.233);
+    
+    
+}
+.navigation .logo
+{
+    display: flex;
+    margin: 15px;
+    margin-left: 25px;
+}
+.navigation .logo img
+{
+    width: 100px;
+    height: 50px;
+}
+.navigation .logo span
+{
+    font-size: 1.6rem;
+    color: rgb(255, 0, 119);
+}
+.navigation .logo h3
+{
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: rgb(87, 87, 87);
+    margin-top: 5px;
+    margin-left: -10px;
+
+}
+.navigation ul
+{
+    position:relative;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 8px;
+    
+    
+}
+.navigation ul li 
+{
+    display: inline-block;
+    margin: 15px;
+    margin-left: 35px;
+    padding: 10px;
+    
+   
+
+}
+.navigation ul li:hover
+{
+    background-color: rgba(255, 0, 119, 0.185);
+    
+    border-radius: 3px;
+    color: rgb(240, 240, 240);
+}
+.navigation ul li a
+{
+    color: rgb(31, 31, 31);
+    font-weight: 900;
+    font-size: 1rem;
+
+}
+
+.navigation .menu 
+{
+    margin: 20px;
+    position: absolute;
+    right: 0;
+    display: none;
+    font-size: 1.3rem;
+    color: rgb(75, 75, 75);
+    cursor: pointer;
+}
+.contain
+{
+    max-width: 100%;
+    position: relative;
+    top: 5vw;
+    background-color: rgb(240, 248, 255);
+    
+    
+    
+}
+.contain .img-developer
+{
+    max-width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.contain .img-developer img{
+   width: 800px;
+   height: 500px;
+   position:absolute;
+   right: 0;
+   margin:50px;
+
+}
+.contain .headings
+{
+    width: 420px;
+    position:absolute;
+    top: 0;
+    margin: 50px;
+    margin-top: 150px;
+    margin-left: 10%;
+    color: rgb(65, 65, 65);
+}
+.contain .headings p ,.contain .headings h5
+{
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.contain .headings h1
+{
+    margin: 10px;
+    font-size: 3rem;
+    font: weight 900px;
+    letter-spacing: 6px;
+    color: rgb(39, 30, 77);
+    font-family: 'Lobster', cursive;
+}
+
+.types
+{
+    color: rgb(253, 2, 128);
+    font-size: 1.6rem;
+    margin-left: 5px;
+}
+.contain .headings button
+{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin: 10px;
+    font-weight: 900;
+    border-radius: 8px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border: 3px solid rgba(51, 0, 255, 0.484);
+    background-color: rgba(54, 50, 72, 0.893);
+    font-size: 0.8rem;
+    letter-spacing: 4px;
+    box-shadow: 1px 5px 5px 3px rgba(132, 0, 255, 0.39);
+    cursor: pointer;
+}
+.contain .headings button:hover,.projects button:hover
+{
+    color: rgb(197, 197, 197);
+}
+
+.project
+{
+    width: 100%;
+    position: relative;
+    top: 5vw;
+   
+    padding: 10px;
+    text-align: center;
+}
+.heading 
+{
+    text-align: center;
+    margin: 10px;
+    color: rgb(71, 71, 71);
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+.projects
+{
+    display: inline-block;
+    width: 350px;
+    height: auto;
+    margin: 40px;
+    margin-left: 50px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px 8px rgba(223, 223, 223, 0.589);
+    opacity: .9;
+    
+}
+.projects:hover
+{
+    box-shadow: 5px 5px 15px 8px rgba(170, 151, 240, 0.589);
+   
+    opacity: 1;
+}
+.projects p
+{
+    width: 300px;
+    font-size: 0.8rem;
+    margin: 10px;
+    padding: 10px;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    text-justify: inter-word;
+    text-align:initial;
+}
+.sce-more
+{
+    display: none;
+}
+.sce
+{
+    color: rgb(98, 112, 235);
+    font-weight: 900;
+    cursor: pointer;
+   
+}
+.projects h2 ,.project h5
+{
+    text-align: center;
+    margin: 5px;
+    margin-top: 20px;
+    color: rgb(255, 0, 76);
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-size: 0.9rem;
+}
+.projects button
+{
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin: 5px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(255, 0, 98);
+    background-color: rgb(236, 14, 88);
+    font-weight: 900;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    outline: transparent;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+
+}
+.project h5
+{
+    color: rgb(54, 54, 54);
+    font-weight: 900;
+}
+.projects .project-img
+{
+    width: 350px;
+    height: 250px;
+    align-items: center;
+    background-color: black;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    overflow: hidden;
+}
+.projects .project-img img
+{
+    width: 330px;
+    height: 250px;
+    
+}
+.project-img img:hover
+{
+    transform: scale(1.2);
+	transition:3s transform;
+}
+.contact
+{
+    position: relative;
+    top: 3vw;
+    padding: 50px;
+    text-align: center;
+}
+.contacts
+{
+    display: inline-block;
+    margin-top: 30px;
+    margin: 10px;
+    margin-left: 20px;
+    overflow: hidden;
+    outline: none;
+}
+.contacts a
+{
+    font-size: 1.5rem;
+    color: rgb(81, 81, 81);
+}
+.contacts a img
+{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+   
+}
+.contacts a h5
+{
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.contacts a:hover
+{
+    color: rgb(231, 175, 22);
+}
+.About
+{
+    position: relative;
+    top: 4vw;
+    text-align: center;
+    margin-bottom: 50px;
+
+   
+ 
+}
+.about-detail
+{
+    display: inline-block;
+    margin: 50px;
+    color: rgb(62, 62, 62);
+    margin-bottom: 70px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.about-detail:hover
+{
+    box-shadow: 2px 2px 5px 2px rgba(41, 56, 215, 0.589);
+    
+}
+.about-detail-img
+{
+ text-align: center;
+ padding: 10px;
+}
+.about-detail h2,.about-detail h3,.about-detail p
+{
+    margin: 5px;
+    font-size: 0.8rem;
+}
+.About .about-detail img{
+
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid rgb(235, 235, 235);
+    background-color: white;
+    box-shadow: 2px 2px 5px 2px rgba(213, 204, 247, 0.589);
+}
+
+.footer
+{
+    text-align: center;
+    color: rgb(88, 88, 88);
+    position: relative;
+    top: 5vw;
+}
+.footer p
+{
+    font-size: 0.8rem;
+    margin: 10px;
+
+}
+
+.Skill
+{
+    text-align: center;
+    position: relative;
+    top: 4vw;
+}
+#bars {
+	margin: 1em auto;
+	max-width: 960px;
+	overflow: hidden;
+    
+}
+
+.bar {
+	display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    
+    
+}
+
+.bar h3 {
+	font-size: 1rem;
+	font-weight: normal;
+	margin: 0;
+	text-transform: uppercase;
+    color: rgb(64, 64, 64);
+}
+
+.bar-circle {
+	display: block;
+	margin: 0.7em auto;
+}
+
+h3 {
+	display:inline-block;
+	margin-left:25px;
+	cursor:pointer;
+}
+#names {
+  text-align:center;
+}
+.bactive {
+	border-bottom:3px solid #231b1d;
+		font-weight:800;
+}
+.sbar {
+  display:none;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:1250px) {
+.navigation .logo
+{
+    margin-left: 0;
+}
+
+#nav
+{
+    display: none;
+}
+#back-menu
+{
+    display: none;
+}
+ .navigation ul 
+ {
+     text-align: center;
+     position: absolute;
+     top: 60px;
+ }  
+.navigation ul li
+{
+    display:list-item;
+}
+.navigation .menu 
+{
+    display: block;
+}
+.contain 
+{
+    max-width: 100%;
+    height: 400px;
+    display: block;
+    position:relative;
+    top: 10vw;
+    transform: translateY(-5vw);
+    margin: 0px;
+    
+    
+}
+.contain .img-developer
+{
+    max-width: 100%;
+    height: 50vh;
+    padding: 20px;
+    background-color: rgba(206, 199, 252, 0.047);
+ 
+    
+    
+    
+}
+.contain .img-developer img{
+   display: none;
+
+}
+.contain .headings
+{
+    width: 300px;
+    position:absolute;
+    top: 50%;
+    left: 60%;
+    margin: 0px;
+    transform: translate(-50%,-50%);
+    margin-left: 0;
+    margin-top:0px;
+    color: rgb(66, 66, 66);
+    font-size: .7rem;
+ 
+}
+.contain .headings p ,.contain .headings h5
+{
+    margin: 5px;
+    font-size: .7rem;
+
+}
+.contain .headings h1
+{
+    margin: 5px;
+    font-size: 2rem;
+    
+}
+.types
+{
+    
+    font-size: 1rem;
+   
+}
+.navigation .logo h3
+{
+    margin-top: 5px;
+}
+.contain .headings button
+{
+    width: 150px;
+    height: 40px;
+    font-size: 0.7rem;
+    margin-left: 5px;
+}
+.project
+{
+    position: relative;
+    top: 50px;
+
+}
+.projects
+{
+   
+    margin: 10px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-top: 30px;
+    
+
+}
+.project .heading
+{
+    margin: 3px;
+}
+.contact
+{
+    position: relative;
+    top: 5vw;
+}
+.about-detail
+{
+    margin: 30px;
+}
+.about-detail h2,.about-detail h3,.about-detail p
+{
+    margin: 5px;
+    font-size: .7rem;
+}
+.About .about-detail img{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.contacts a i
+{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(243, 242, 248);
+    color: rgb(15, 20, 46);
+    padding: 15px;
+    padding-top: 20px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    margin: 10px;
+    box-shadow: 2px 1px 5px 1px rgba(248, 248, 248, 0.726);
+}
+}
