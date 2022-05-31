@@ -1,0 +1,533 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Poppins:wght@300&family=Shippori+Antique&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    user-select: none;
+    transition: all;
+    transition: 0.3s;
+
+}
+#preloader
+{
+    background:#ffffff url(img/preloader.gif) no-repeat center center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  
+}
+::-webkit-scrollbar
+{
+    width: 10px;
+    
+}
+::-webkit-scrollbar-track
+{
+    border-radius: 5px;
+    box-shadow: inset 1px 0px 0px rgba(40, 40, 41, 0.548);
+
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 5px;
+    background-color: #2d2d2d;
+}
+#Top-contain
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #f1eeee;
+    position: relative;
+    overflow: hidden;
+    
+}
+.navigation
+{
+    width: 70%;
+    display:flex;
+    position:relative;
+    left: 50%;
+    top:5% ;
+    transform: translate(-50%,-5%);
+    padding: 5px;
+    background-color: #E1E1E1;
+
+}
+.navigation .logo a
+{
+    max-width: 200px;
+    height: 50px;
+    position:relative;
+    text-align: center;
+    display:flex;
+    font-size: 1.1em;
+    color: rgb(17, 17, 25);
+    font-weight:900;
+    letter-spacing: 3px;
+    margin: 10px;
+    padding: 5px;
+    
+    
+    
+}
+.navigation .logo img
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    float: left;
+    margin: auto;
+    margin-right: 5px;
+    
+}
+.navigation .logo span
+{
+    font-size: 1.2em;
+    color: rgb(255, 0, 119);
+}
+.navigation .nav
+{
+    width: 70%;
+    height: 50px;
+    position:relative;
+    left: 25%;
+    margin: 10px;
+    transform: translatex(-25%);
+    text-align: center;
+   
+   
+    
+    
+    
+}
+.navigation .nav li 
+{
+    display: inline-block;
+    margin: 5px;
+    margin-left: 35px;
+    padding: 10px;
+    
+    
+   
+
+}
+.navigation .nav li a
+{
+    color: rgb(31, 31, 31);
+    font-weight: 900;
+    font-size: .9em;
+
+}
+.navigation .nav li a:hover
+{
+    color: rgb(125, 124, 124);
+    transition: 1s;
+    
+
+}
+.navigation .menu 
+{
+    margin: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    font-size: 1.3em;
+    color: rgb(75, 75, 75);
+    cursor: pointer;
+}
+.img-developer
+{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    position: relative;
+    top: 5%;
+    
+}
+
+.img-developer .headings .head_write
+{
+
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    transform: translate(-25%,-30%);
+    padding: 20px;
+    margin: 30px;
+}
+.head_write h1
+{
+    margin: 10px;
+    font-size: 3em;
+    font-weight:  900px;
+    letter-spacing: 3px;
+    color: rgb(215, 5, 124);
+    /* font-family: 'Permanent Marker', cursive; */
+}
+.head_write p, .head_write h5
+{
+  margin: 10px;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: rgb(8, 8, 8);
+}
+.types
+{
+    color: rgba(238, 9, 9, 0.977);
+    font-size: 1em;
+    margin-left: 5px;
+    font-weight: 900;
+}
+.img-developer button
+{
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    margin: 10px;
+    font-weight: 900;
+    border-radius: 10px;
+    border-top-right-radius: 50px;
+    outline: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to bottom right, rgb(255, 0, 157), rgb(255, 0, 38));
+    font-size: 0.7em;
+    letter-spacing: 4px;
+    box-shadow: 5px 5px 10px 3px rgba(244, 4, 196, 0.34);
+    cursor: pointer;
+    transition: 3s;
+}
+.img-developer button:hover
+{
+    
+    background-image: linear-gradient(to bottom right, rgba(255, 0, 157, 0.793), rgba(255, 0, 38, 0.777));
+    color: #000;
+    
+}
+.img-developer .hero_img
+{
+  
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    
+    
+   
+     
+}
+.img-developer .hero_img img
+{
+    width: 600px;
+    max-height: 900px;
+    height: 100%;
+    margin-left: 50%;
+
+}
+
+#Academic_peoject
+{
+    width: 100%;
+    position: relative;
+    top: 1vw;
+    padding: 10px;
+    align-items: center;
+    overflow-y: auto;
+    padding-left: 10%;
+}
+:is(#Academic_peoject,.projects p)::-webkit-scrollbar
+{
+    width: 0;
+    height: 0;
+}
+.heading 
+{
+    
+    margin: 10px;
+    padding: 10px;
+    color: rgb(30, 30, 30);
+    font-size: .9em;
+    font-weight: 900;
+    letter-spacing: 2px;
+   
+    border-radius: 5px;
+}
+.heading .line
+{
+    content: "";
+    width: 90px;
+    height: 4px;
+    margin-top: 5px;
+    background-color: #292833;
+    border-radius: 10px;
+}
+.projects
+{
+    display: inline-block;
+    width: 350px;
+    height: 600px;
+    margin: 30px;
+    margin-left: 2%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 8px rgba(198, 120, 181, 0.201);
+    opacity: .9;
+    text-align: center;
+    overflow: hidden;
+    
+    
+}
+
+
+.projects p
+{
+    width: 330px;
+    height: 200px;
+    font-size: 0.7rem;
+    color: rgb(49, 49, 49);
+    margin: 10px;
+    padding: 10px;
+    line-height: 1.6rem;
+    letter-spacing: 1.1px;
+    text-justify: inter-word;
+    text-align:initial;
+    overflow-x: auto;
+    
+   
+    
+    
+}
+.projects p:hover
+{
+    background-color: rgb(247, 246, 246);
+}
+.projects:hover
+{
+    box-shadow: 5px 5px 15px 8px rgba(132, 46, 202, 0.377);
+    opacity: 1;
+}
+.projects iframe
+{
+    max-width: 400px;
+    width: 100%;
+    height: 200px;
+    background: #E1E1E1;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.projects .project-img img
+{
+    max-width: 400px;
+    width: 100%;
+    height: 200px;
+    
+}
+.projects h2 ,.projects h5
+{
+    text-align: center;
+    margin: 2px;
+    margin-top: 10px;
+    color: rgb(238, 143, 19);
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+.projects h5
+{
+    color: rgb(124, 119, 119);
+    font-size: 0.7rem;
+}
+.projects button
+{
+    width: 90px;
+    height: 40px;
+    margin: 5px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(rgb(251, 77, 8), rgb(243, 12, 108));
+    border-radius:10px;
+    color: rgb(255, 255, 255);
+    font-size: 0.7em;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.projects button:hover
+{
+    color: rgb(158, 158, 158);
+}
+.Skill
+{
+    text-align: center;
+    position: relative;
+    top: 1vw;
+    padding: 10px;
+   
+}
+.circle-chart__circle {
+    animation: circle-chart-fill 2s reverse; 
+    transform: rotate(-90deg); 
+    transform-origin: center; 
+   
+  }
+  .circle-chart
+  {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+  }
+  
+  .circle-chart__info {
+    animation: circle-chart-appear 10s forwards;
+    opacity: 0;
+    transform: translateY(0.3em);
+  }
+  
+  @keyframes circle-chart-fill {
+    to { stroke-dasharray: 0 100; }
+  }
+  
+  @keyframes circle-chart-appear {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+  .grid {
+    display: grid;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #Contact
+  {
+      width: 100%;
+      overflow-x: auto;
+      
+  }
+  .Sms_body
+  {
+      width: 400px;
+      background-image: linear-gradient(rgba(251, 8, 182, 0.305), rgba(243, 62, 12, 0.399));
+      padding: 20px;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      margin: 10px;
+      text-align: center;
+      box-shadow: 5px 5px 5px 5px rgba(205, 205, 205, 0.797);
+      border-radius: 5px;
+      
+  }
+  .Sms_body input ,.Sms_body textarea
+  {
+    max-width: 300px;
+    width: 100%;
+    background-color: #f1eef0;
+    margin: 10px 5px;
+    height: 55px;
+    border-radius: 10px;
+    display: grid;
+    padding-left: 10px;
+    grid-template-columns: 15% 85%;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    outline:none;
+    margin-left: 30px;
+  }
+.Sms_body textarea
+  {
+    
+    height: 250px;
+    padding: 10px;
+    
+  }
+  .Sms_body button
+  {
+      width: 100px;
+      height: 40px;
+      padding: 5px;
+      margin: 10px;
+      outline: none;
+      border: none;
+      background-color: rgb(189, 152, 51);
+      font-size: 0.9em;
+      font-weight: 900;
+      cursor: pointer;
+      color: rgb(255, 255, 255);
+      border-radius: 5px;
+
+  }
+  .all_info
+  {
+      width: 100%;
+      padding: 20px;
+      
+  }
+.all_info .info
+{
+    max-width: max-content;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 10px;
+    padding: 10px;
+    
+}
+.all_info .info li
+{
+    margin: 15px;
+    font-size: 1.2em;
+
+}
+.all_info .info li i
+{
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50%;
+    color: rgb(165, 25, 160);
+    background-image: linear-gradient(rgb(248, 20, 20), rgb(252, 1, 152));
+    margin: 5px;
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px 5px rgba(246, 246, 242, 0.655);
+
+}
+.all_info .info li h5
+{
+    max-width: max-content;
+    margin: 5px;
+    color: rgb(51, 51, 51);
+    font-weight: 900;
+
+}
+.footer
+{
+    text-align: center;
+    color: rgb(45, 44, 44);
+    position: relative;
+    padding: 10px;
+}
+.footer p
+{
+    font-size: 1rem;
+    margin: 15px;
+
+}

@@ -1,0 +1,391 @@
+@media only screen and (max-width:1500px) {
+    #Academic_peoject
+    {
+        
+        padding-left: 3%;
+    }
+    .projects
+    {
+        margin: 20px;
+        margin-left: 2%;
+        
+        
+    }
+}
+@media only screen and (max-width:1199px) {
+    #Academic_peoject
+    {
+        
+        padding-left: 1%;
+    }
+    .projects
+    {
+        margin: 10px;
+        margin-left: 1%;
+        
+        
+    }
+}
+@media only screen and (max-width:1155px) {
+    ::-webkit-scrollbar
+{
+    display:none;
+    
+}
+#Top-contain
+    {
+        
+        height: 100vh;
+       
+        
+    }
+    .navigation
+    {
+        width: 100%;
+        height: 60px;
+        display:inline-block;
+        position:fixed;
+        left:0%;
+        top:0% ;
+        transform: translate(-0%,-0%);
+        background-color: rgb(255, 255, 255);
+        z-index: +100000;
+        box-shadow: 1px 5px 10px 1px rgba(110, 110, 110, 0.233);
+    }
+
+    .navigation .logo a
+    {
+       
+        float: left;
+        text-align: center;
+        display:flex;
+        font-size: 1.1em;
+        margin: 0px;
+        padding: 7px;
+        
+        
+        
+    }
+    .navigation .nav
+{
+    width: 100%;
+    height: 100vh;
+    position:absolute;
+    left: 0%;
+    top: 0%;
+    margin: 0px;
+    transform: translate(-0%);
+    text-align: center;
+    background-color: #E1E1E1;
+   
+    
+    
+    
+}
+.navigation .nav ul
+{
+    position:relative;
+    top: 15vh;
+}
+.navigation .nav li a
+{
+    color: rgb(31, 31, 31);
+    font-weight: 900;
+    font-size: 1.2em;
+
+}
+.navigation .nav li 
+{
+    display:block;
+    margin: 15px;
+    margin-left: 35px;
+    padding: 10px;
+    
+   
+
+}
+.navigation .menu 
+{
+    display: block;
+}
+#nav
+{
+  position: absolute;
+  top: -200vh;
+  transition: 1s;
+}
+#back-menu
+{
+    display: none;
+}
+
+.img-developer .hero_img img
+{
+    height: 700px;
+    margin-left: 45%;
+
+}
+.img-developer .headings .head_write
+{
+
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-20%,-50%);
+    padding: 20px;
+    margin: 30px;
+}
+.head_write h1
+{
+    margin: 10px;
+    font-size: 2.3em;
+    font-weight:  900px;
+    letter-spacing: 3px;
+    color: rgb(215, 5, 124);
+    /* font-family: 'Permanent Marker', cursive; */
+}
+.head_write p, .head_write h5
+{
+  margin: 10px;
+  font-size: .8em;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: rgb(8, 8, 8);
+}
+#Academic_peoject
+{
+    
+    padding-left: 0%;
+}
+
+.img-developer .hero_img img
+{
+    width: 600px;
+    max-height: 1500px;
+    height: 100%;
+    margin-left: 50%;
+
+}
+.projects
+{
+    max-width: 320px;
+    width: 100%;
+    height: 570px;
+    margin: 10px;
+    margin-left: 1%;
+    
+    
+}
+
+
+.projects p
+{
+    max-width: 300px;
+    height: 180px;
+    font-size: 0.6rem;
+    margin-top: 10px;
+    
+   
+    
+    
+}
+.projects button
+{
+    width: 80px;
+    font-size: 0.6em;
+    
+}
+.Sms_body
+{
+    width: 340px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 5px;
+    margin-top: 10px;
+   
+    
+}
+.Sms_body input ,.Sms_body textarea
+{
+  max-width: 300px;
+  margin: 10px 5px;
+  
+  
+ 
+ 
+  margin-left: 0px;
+}
+
+}
+@media only screen and (max-width:1150px) {
+    #Academic_peoject
+    {
+        
+        padding-left: 10%;
+    }
+    .projects
+    {
+        margin: 30px;
+        margin-left: 3%;
+        
+        
+    }
+}
+@media only screen and (max-width:900px) {
+    #Top-contain
+    {
+        height: 100vh;
+       
+        
+    }
+    .img-developer .headings .head_write
+{
+
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    transform: translate(-10%,-40%);
+    margin: 20px;
+}
+.img-developer .hero_img img
+{
+    width: 600px;
+    max-height: 1500px;
+    height: 100%;
+    margin-left: 40%;
+
+}
+#Academic_peoject
+{
+    
+    padding-left: 5%;
+}
+
+}
+@media only screen and (max-width:885px) {
+    #Academic_peoject
+    {
+       
+        padding-left: 0%;
+    }
+    .projects
+{
+   
+    margin-left: 2%;
+    
+    
+}
+}
+
+@media only screen and (max-width:806px) {
+    .projects
+    {
+       
+        margin:5px;
+        margin-top:5px ;
+        
+        
+    }
+}
+@media only screen and (max-width:733px) {
+    #Academic_peoject
+    {
+       
+        padding-left: 10%;
+    }
+    .projects
+    {
+       
+        margin:20px;
+        margin-left: 7%;        
+        
+    }
+}
+@media only screen and (max-width:650px) {
+    #Top-contain
+    {
+        height: 100vh;
+       
+        
+    }
+}
+
+@media only screen and (max-width:545px) {
+    .img-developer .hero_img img
+    {
+        margin-left: 20%;
+    
+    }
+    .img-developer .headings .head_write
+{
+
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translate(-5%,-50%);
+    padding: 20px;
+    margin: 10px;
+}
+.projects
+{
+   
+    margin: 10px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-top: 30px;
+    
+    
+}
+
+
+ }
+@media only screen and (max-width:450px) {
+    #Academic_peoject
+    {
+       
+        padding-left: 0%;
+    }
+.projects
+{
+   
+    margin: 10px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-top: 30px;
+    
+    
+}
+.Sms_body
+{
+    position: relative;
+    left: 0%;
+    transform: translateX(-0%);
+    margin: 1px;
+    margin-top: 10px;
+    padding: 2px;
+    
+    
+}
+.Sms_body input ,.Sms_body textarea
+{
+  max-width: 300px;
+  margin: 5px 5px;
+  
+  
+ 
+ 
+  margin-left: 10px;
+}
+ }
+
+ @media (min-width: 31em) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+
+
+
+

@@ -3,62 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="img/Vanilla-7.7s-89px.gif" />
+    <link rel="icon" href="img/logo_200x200.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobilestyle.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" ></script>
     <script src="https://kit.fontawesome.com/067dbad983.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title> My Portfolio Website </title>
 </head>
 <body>
-    <div id="preloader">
+  <div id="preloader">
 
-    </div>
-
-    <div class="navigation" id="navigation">
-        <a href="#"><div class="logo">
-            <img src="img/Vanilla-7.7s-89px.gif" alt="">
-            <h3><span>Po</span>rtfolio</h2>
-        </div></a>
-        <ul id="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#project">Project</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skill">Skill</a></li>
-           
-        </ul>
-        <div class="menu" id="menu"><i class="fas fa-bars"></i></div>
-        <div class="menu" id="back-menu"><i class="fas fa-times"></i></div>
-    </div>
-
-    <div class="contain">
-        <div class="img-developer">
-            <img src="img/hero.png" alt="" srcset="">
-            <div class="headings">
-                <p>Hello, my name is</p>
-                <h1>Dipta Saha</h1>
-                <h5>And I'm a <span class="types"></span> </h5>
-                <a href="https://github.com/didipta"><button><i class="fab fa-github"></i> Git Account</button></a>
+  </div>
+    <section id="Top-contain">
+        <div class="navigation" id="navigation">
+            <div class="logo"><a href="#">
+                <img src="img/logo_200x200.png">
+                <h3><span>Port</span>folio</h2>
+                </a></div>
+            <div id="nav" class="nav">
+                <ul>
+                <li ><a href="#">Home</a></li>
+                <li ><a href="#project">Project</a></li>
+                <li ><a href="#contact">Contact</a></li>
+                <li ><a href="#about">About</a></li>
+                <li ><a href="#skill">Skill</a></li>
+               
+            </ul>
+            
             </div>
+            <div class="menu" id="menu"><i class="fas fa-bars"></i></div>
+            <div class="menu" id="back-menu"><i class="fas fa-times"></i></div>
         </div>
-    
-    </div>
-  
-    <div class="project" id="project" >
-        <div class="heading" data-aos="fade-up">
-            <h3>-----My University Project-----</h3>
+
+        <div class="img-developer">
+           
+            
+            <div class="headings">
+                <div class="head_write">
+                    <p>Hello, my name is</p>
+                    <h1>Dipta Saha</h1>
+                    <h5>And I'm a <span class="types"></span> </h5>
+                    <a href="https://github.com/didipta"><button><i class="fab fa-github"></i> Git Account</button></a>
+                </div>
+              
+            </div>
+            <div class="hero_img">
+                <img src="img/hero4.png" alt="" srcset="">
+            </div>
+           
         </div>
-        <div class="projects" data-aos="flip-left" >
-            <div class="project-img"><iframe width="350" height="250" src="https://www.youtube.com/embed/s4PTP4YEOSc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    </section>
+    <section >
+        <div class="heading">
+            <h3>My University Project</h3>
+            <div class="line"></div>
+            <div class="line" style="width:60px ;"></div>
+        </div>
+      <div id="Academic_peoject">
+        <div class="projects">
+            <div class="project-img"><iframe  src="https://www.youtube.com/embed/s4PTP4YEOSc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
             <h2>Advance .Net (ASP.NET)</h2>
             <h5>Online Medicine Service</h5>
             <p>Online Medicine Service is the name of my project. The project was designed through ASP.NET
-                MVC, ASP.NET wed API and React js.<span class="sce-more" id="sce-more0"> There are four types of users in this project and they are 
+                MVC, ASP.NET wed API and React js.There are four types of users in this project and they are 
                     Admin, Staffs, Customers and Delivery man. My contribution was in writing the complete 
                     ASP.NET MVC , backend(ASP.NET wed API(SOLID and 3 tier app)) and frontend(react js) code for 
-                    Customers part in the website.</span><span class="sce" id="sce0">..See more</span> </p>
+                    Customers part in the website.</p>
             <div class="button">
                 <a href="https://github.com/didipta/Online_Medicine_service"><button><i class="fab fa-github"></i> MVC</button></a>
                 <a href="https://github.com/didipta/onlinemedicineservice_-.net-"><button><i class="fab fa-github"></i> wed API</button></a>
@@ -67,223 +79,214 @@
                 
             </div>
         </div>
-        <div class="projects" data-aos="flip-right">
-            <div class="project-img"><iframe width="350" height="250" src="https://www.youtube.com/embed/EumSlaXtGdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="projects">
+            <div class="project-img"><iframe  src="https://www.youtube.com/embed/EumSlaXtGdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
             <h2>Advance Web Designing</h2>
             <h5>Onlineshopping Website-Eflip </h5>
             <p>Onlineshopping Website-Eflip is the name of my project.The project was designed through
-                Laravel framework <span class="sce-more" id="sce-more1">and React js are four types of users in this project and they are
+                Laravel framework and React js are four types of users in this project and they are
                 Admin,Staffs,Customers and Delivery man. My contribution was in writing the complete
-                backend(Laravel) and frontend(react js) code for Customers part in the website.</span><span class="sce" id="sce1">..See more</span> </p>
+                backend(Laravel) and frontend(react js) code for Customers part in the website.</p>
             <div class="button">
                 <a href="https://github.com/didipta/onlineshopping-Eflip"><button><i class="fab fa-github"></i> Laravel</button></a>
                 <a href="https://github.com/didipta/onlineshopping-eflip-react"><button><i class="fab fa-github"></i> React js</button></a>
                 
             </div>
         </div>
-        <div class="projects" data-aos="flip-left">
-            <div class="project-img"><iframe width="350" height="250" src="https://www.youtube.com/embed/zyKLKvHFu7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="projects">
+            <div class="project-img"><iframe src="https://www.youtube.com/embed/zyKLKvHFu7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
             <h2> Web Designing</h2>
             <h5>Restaurant Website-Food-hub  </h5>
-            <p> Restaurant Website-Food-hub is the name of my project. The project was designed through
-                PHP,HTML,AJAX,CSS,<span class="sce-more" id="sce-more2">JSON,XAMPP,JS.There are four types of users in this project and they
+            <p> Restaurant Website-Food-hub is the name of my project. The project was designed through PHP,HTML,AJAX,CSS,JSON,XAMPP,JS.There are four types of users in this project and they
                 are Admin,Staffs,Customers and Delivery man. My contribution was in writing the complete
-                code for the website.</span><span class="sce" id="sce2">..See more</span></p>
+                code for the website.</p>
             <div class="button">
                 <a href="https://github.com/didipta/Food-hub"><button><i class="fab fa-github"></i> Project </button></a>
                 
                 
             </div>
         </div>
-        <div class="projects" data-aos="flip-right">
-            <div class="project-img"><iframe width="350" height="250" src="https://www.youtube.com/embed/rMcV3--k1yk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="projects">
+            <div class="project-img"><iframe  src="https://www.youtube.com/embed/rMcV3--k1yk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
             <h2> Desktop app(C#)</h2>
             <h5> Waste Management System </h5>
-            <p>Waste Management System- Green Bangladesh is the name of my project.The project was designed <span class="sce-more" id="sce-more3">C# language.There are four types of users in this project and they are Admin,Staffs,Customers and Delivery man. My contribution was in writing the complete code for
-                the desktop app.</span><span class="sce" id="sce3">..See more</span></p>
+            <p>Waste Management System- Green Bangladesh is the name of my project.The project was designed C# language.There are four types of users in this project and they are Admin,Staffs,Customers and Delivery man. My contribution was in writing the complete code for
+                the desktop app.</p>
             <div class="button">
                 <a href="https://github.com/didipta/Green-Bangladesh"><button><i class="fab fa-github"></i> Project </button></a>
                 
             </div>
         </div>
-        <div class="projects" data-aos="flip-left">
+        <div class="projects">
             <div class="project-img"><img src="img/java1.jpg" alt="" srcset=""></div>
             <h2> Java Project</h2>
             <h5> University Management System  </h5>
             <p>University Management System is the name of my project. The project was designed Java
-                language.There are four types of<span class="sce-more" id="sce-more4" > users in this project and they are Faculty,Employee,officers
-                and students. My contribution was in writing the complete code for the System.</span><span class="sce" id="sce4">..See more</span></p>
+                language.There are four types of users in this project and they are Faculty,Employee,officers
+                and students. My contribution was in writing the complete code for the System.</p>
             <div class="button">
                 <a href="https://github.com/didipta/java-UmS"><button><i class="fab fa-github"></i> Project </button></a>
                 
             </div>
-        </div>
-        <div class="projects" data-aos="flip-right">
-            <div class="project-img"><iframe width="350" height="250" src="https://www.youtube.com/embed/rrkHTuwKBvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-            <h2> Computer Graphics</h2>
-            <h5> Beautiful Village Scenario </h5>
-            <p>There are so many components and parts in our project. Like uses of geometric primitives, 
-                translation,<span class="sce-more" id="sce-more5">rotation, scaling, animation, handle key press, handle mouse types of mode etc. 
-                All these parts are drawn in window using OpenGL. As the code writing part of the project is quite lengthy, there are some problematic part too. In our project, A Beautiful Village Scenario which is simple, good looking village. 
-                </span><span class="sce" id="sce5">..See more</span></p>
-            <div class="button">
-                <a href="https://github.com/didipta/Graphic_project"><button><i class="fab fa-github"></i> Project </button></a>
-                
             </div>
-        </div>
-        
-    </div>
-
-    <div class="contact" id="contact" data-aos="zoom-in">
-
-        <div class="heading" data-aos="zoom-in-up">
-            <h3>-----Contact Me-----</h3>
-        </div>
-
-        <div class="contacts">
-            <a href="mailto:sdipta707@gmail.com" target="_blank">
-                <img src="https://img.icons8.com/color/48/000000/gmail-new.png"/>
-                <h5>sdipta707@gmail.com</h5>
-            </a>
-        </div><br>
-
-        <div class="contacts">
-            <a href="https://www.facebook.com/profile.php?id=100008229855643">
-                <img src="https://img.icons8.com/color/50/000000/facebook-new.png"/>
-                <h5>Dipta saha</h5>
-            </a>
-        </div>
-
-        <div class="contacts">
-            <a href="tel:01881401919" target="_blank">
-                <img src="https://img.icons8.com/color/48/000000/phone.png"/>
-                <h5>01881401919</h5>
-            </a>
-        </div>
-
-        <div class="contacts">
-            <a href="https://www.linkedin.com/in/dipta-saha-11a4b8194/">
-                <img src="https://img.icons8.com/color/48/000000/linkedin.png"/>
-                <h5>dipta saha</h5>
-            </a>
-        </div>
-    </div>
-
-    <div class="About" id="about">
-
-        <div class="heading">
-            <h3>-----About-----</h3>
-        </div>
-
-        <div class="about-detail" data-aos="zoom-in-up">
-
-            <div class="about-detail-img">
-                <img src="img/aiub-logo.png" alt="">
+            <div class="projects">
+                <div class="project-img"><iframe width="350" height="250" src="https://www.youtube.com/embed/rrkHTuwKBvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <h2> Computer Graphics</h2>
+                <h5> Beautiful Village Scenario </h5>
+                <p>There are so many components and parts in our project. Like uses of geometric primitives, 
+                    translation,rotation, scaling, animation, handle key press, handle mouse types of mode etc. 
+                    All these parts are drawn in window using OpenGL. As the code writing part of the project is quite lengthy, there are some problematic part too. In our project, A Beautiful Village Scenario which is simple, good looking village. 
+                    </p>
+                <div class="button">
+                    <a href="https://github.com/didipta/Graphic_project"><button><i class="fab fa-github"></i> Project </button></a>
+                    
+                </div>
             </div>
-            <h2>American International University,Dhaka,Bangladesh</h2>
-            <h3>Bachelor of Computer Science</h3>
-            <p>2019-2022</p>
-
-            
-    </div>
-
-    <div class="about-detail" data-aos="zoom-in-up">
-
-        <div class="about-detail-img">
-            <img src="img/chittagong-city-corporatio.png" alt="">
-        </div>
-        <h2>chittagong city corporation kaiser-niloufer college</h2>
-        <h3>Science Department</h3>
-        <p>2016-2018</p>
-
-        
-</div>
-
-
-<div class="about-detail" data-aos="zoom-in-up">
-
-    <div class="about-detail-img">
-        <img src="img/lamabazer.jpg" alt="">
-    </div>
-    <h2>Lamabazar A.A.S City Corporation High School,Chittagong</h2>
-    <h3>Science Department</h3>
-    <p>2010-2015</p>
-
-    
-</div>
-
-<div class="about-detail" data-aos="zoom-in-up">
-
-    <div class="about-detail-img">
-        <img src="img/dipta.jpg" alt="">
-    </div>
-    <h2>My name is Dipta saha (Bachelor)</h2>
-    <h3>Live in Dhaka nikonjo 2 Road-18</h3>
-    <p>2019-2022</p>
-    
-</div>
-
-<div class="about-detail" data-aos="zoom-in-up">
-
-    <div class="about-detail-img">
-        <img src="img/aiubcomputerclub.png" alt="">
-    </div>
-    <h2>AIUB Computer Club</h2>
-    <h3>General Member</h3>
-    <p>2021-2022</p>
-    
-</div>
-
-
-
-
-
-    </div>
-
-    <div class="Skill" id="skill">
+          </div>
+    </section>
+    <section  id="skill">
         <div class="heading">
-            <h3>-----My Skills-----</h3>
+            <h3>My Skills</h3>
+            <div class="line"></div>
+            <div class="line" style="width:60px ;"></div>
         </div>
-        <section>
-            <div id="names"><h3 class="bactive" id="hards" ></h3><h3 id="softs"></h3></div></br>
-            <div id="hbars">
-                <div class="bar hbar" data-percent="65">
-                    <h3>CSS3</h3>
-                    <canvas class="bar-circle" width="70" height="70"></canvas>
-                </div>
-                <div class="bar hbar" data-percent="75">
-                    <h3>HTML5</h3>
-                    <canvas class="bar-circle" width="70" height="70"></canvas>
-                </div>
-                <div class="bar hbar" data-percent="55">
-                    <h3>JavaScript</h3>
-                    <canvas class="bar-circle" width="70" height="70"></canvas>
-                </div>
-                <div class="bar hbar" data-percent="60">
-                    <h3>PHP</h3>
-                    <canvas class="bar-circle" width="70" height="70"></canvas>
-                </div>
-                <div class="bar hbar" data-percent="60">
-                    <h3>Server</h3>
-                    <canvas class="bar-circle" width="70" height="70"></canvas>
-                </div>
-                <div class="bar hbar" data-percent="50">
-                    <h3>C#(.net)</h3>
-                    <canvas class="bar-circle" width="70" height="70"></canvas>
-                </div>
-                <div class="bar hbar" data-percent="40">
-                    <h3>Java</h3>
-                    <canvas class="bar-circle" width="70" height="70"></canvas>
-                </div>
-            </div>	
-            </section>
+        <div class="Skill" >
+        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862"  xmlns="http://www.w3.org/2000/svg">
+            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <circle class="circle-chart__circle" stroke="#ff3377" stroke-width="2" stroke-dasharray="85,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <g class="circle-chart__info">
+              <text class="circle-chart__percent" x="16.91549431" y="13.5" alignment-baseline="central" text-anchor="middle" font-size="6">85%</text>
+              <text class="circle-chart__subline" x="16.91549431" y="21.5" alignment-baseline="central" text-anchor="middle" font-size="5">HTML5</text>
+            </g>
+          </svg>
+          <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <circle class="circle-chart__circle" stroke="#ff3377" stroke-width="2" stroke-dasharray="65,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <g class="circle-chart__info">
+              <text class="circle-chart__percent" x="16.91549431" y="13.5" alignment-baseline="central" text-anchor="middle" font-size="6">65%</text>
+              <text class="circle-chart__subline" x="16.91549431" y="21.5" alignment-baseline="central" text-anchor="middle" font-size="5">CSS3</text>
+            </g>
+          </svg>
+          <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <circle class="circle-chart__circle" stroke="#ff3377" stroke-width="2" stroke-dasharray="55,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <g class="circle-chart__info">
+              <text class="circle-chart__percent" x="16.91549431" y="13.5" alignment-baseline="central" text-anchor="middle" font-size="6">55%</text>
+              <text class="circle-chart__subline" x="16.91549431" y="21.5" alignment-baseline="central" text-anchor="middle" font-size="5">JS</text>
+            </g>
+          </svg>
+          <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <circle class="circle-chart__circle" stroke="#ff3377" stroke-width="2" stroke-dasharray="75,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <g class="circle-chart__info">
+              <text class="circle-chart__percent" x="16.91549431" y="13.5" alignment-baseline="central" text-anchor="middle" font-size="6">75%</text>
+              <text class="circle-chart__subline" x="16.91549431" y="21.5" alignment-baseline="central" text-anchor="middle" font-size="5">PHP</text>
+            </g>
+          </svg>
+          <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <circle class="circle-chart__circle" stroke="#ff3377" stroke-width="2" stroke-dasharray="75,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <g class="circle-chart__info">
+              <text class="circle-chart__percent" x="16.91549431" y="13.5" alignment-baseline="central" text-anchor="middle" font-size="6">75%</text>
+              <text class="circle-chart__subline" x="16.91549431" y="21.5" alignment-baseline="central" text-anchor="middle" font-size="5">DB</text>
+            </g>
+          </svg>
+          <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <circle class="circle-chart__circle" stroke="#ff3377" stroke-width="2" stroke-dasharray="70,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <g class="circle-chart__info">
+              <text class="circle-chart__percent" x="16.91549431" y="13.5" alignment-baseline="central" text-anchor="middle" font-size="6">70%</text>
+              <text class="circle-chart__subline" x="16.91549431" y="21.5" alignment-baseline="central" text-anchor="middle" font-size="5">C#</text>
+            </g>
+          </svg>
+          <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <circle class="circle-chart__circle" stroke="#ff3377" stroke-width="2" stroke-dasharray="60,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <g class="circle-chart__info">
+              <text class="circle-chart__percent" x="16.91549431" y="13.5" alignment-baseline="central" text-anchor="middle" font-size="6">60%</text>
+              <text class="circle-chart__subline" x="16.91549431" y="21.5" alignment-baseline="central" text-anchor="middle" font-size="5">JAVA</text>
+            </g>
+          </svg>
+        </div>
+      </section>
+      <section  id="skill">
+        <div class="heading">
+            <h3>My Framework Skills</h3>
+            <div class="line"></div>
+            <div class="line" style="width:60px ;"></div>
+        </div>
+        <div class="Skill" >
+        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862"  xmlns="http://www.w3.org/2000/svg">
+            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <circle class="circle-chart__circle" stroke="#3b7dd8" stroke-width="2" stroke-dasharray="53,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <g class="circle-chart__info">
+              <text class="circle-chart__percent" x="16.91549431" y="13.5" alignment-baseline="central" text-anchor="middle" font-size="6">53%</text>
+              <text class="circle-chart__subline" x="16.91549431" y="21.5" alignment-baseline="central" text-anchor="middle" font-size="5">LARAVEL</text>
+            </g>
+          </svg>
+          <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <circle class="circle-chart__circle" stroke="#3b7dd8" stroke-width="2" stroke-dasharray="55,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <g class="circle-chart__info">
+              <text class="circle-chart__percent" x="16.91549431" y="13.5" alignment-baseline="central" text-anchor="middle" font-size="6">55%</text>
+              <text class="circle-chart__subline" x="16.91549431" y="21.5" alignment-baseline="central" text-anchor="middle" font-size="5">REACT JS</text>
+            </g>
+          </svg>
+          <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <circle class="circle-chart__circle" stroke="#3b7dd8" stroke-width="2" stroke-dasharray="50,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+            <g class="circle-chart__info">
+              <text class="circle-chart__percent" x="16.91549431" y="13.5" alignment-baseline="central" text-anchor="middle" font-size="6">50%</text>
+              <text class="circle-chart__subline" x="16.91549431" y="21.5" alignment-baseline="central" text-anchor="middle" font-size="5">ASP .NET</text>
+            </g>
+          </svg>
+      
           
+        
+        </div>
+      </section>
+      <section  id="Contact">
+        <div class="heading">
+            <h3>Contact Me</h3>
+            <div class="line"></div>
+            <div class="line" style="width:60px ;"></div>
 
+           
+        </div>
+        <form  method="post" class="Sms_body">
+            <input type="text" id="Name" placeholder="Enter your name" required>
+            <input type="Email" id="Email" placeholder="Enter your Email" autocomplete="off" required>
+            <input type="text" id="Sudject" placeholder="Enter your Subject" required >
+            <textarea id="Message" placeholder="Enter your Message" cols="50" rows="10" required></textarea>
+            <button id="butn">Submit</button>
+            <a href="/index.html"><button style="background-color: rgb(59, 56, 56);">Cancel</button></a>
 
+        </form>
 
-    </div>
+      </section>
 
-    <div class="footer">
+      <section  id="about">
+        <div class="heading">
+            <h3>About Me</h3>
+            <div class="line"></div>
+            <div class="line" style="width:60px ;"></div>
+          <div class="all_info">
+            <div class="info">
+              <li><h5><i class="fas fa-university"></i> American International University,Dhaka,Bangladesh</li></h5>
+              <li><h5><i class="fas fa-graduation-cap"></i> Bachelor of Computer Science</li></h5>
+              <li><a href="mailto:sdipta707@gmail.com" target="_blank"></i><h5><i class="fas fa-envelope"> </i> sdipta707@gmail.com</h5></a></li>
+              <li><a href="https://www.facebook.com/profile.php?id=100008229855643"><h5><i class="fab fa-facebook"></i> Dipta saha</h5></a></li>
+              <li><a href="tel:01881401919" target="_blank"><h5><i class="fas fa-phone-alt"></i> 01881401919</h5></a></li>
+              <li><a href="https://www.linkedin.com/in/dipta-saha-11a4b8194/"><h5><i class="fab fa-linkedin"></i> dipta saha</h5></a></li>
+            </div>
+          </div>
+           
+        </div>
+        
+
+      </section>
+
+      <div class="footer">
 
         <p>
             Copyright © 2022 Dipta saha | All Rights Reserved
@@ -291,13 +294,17 @@
 
     </div>
 
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="style.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+    </script>
     <script>
       AOS.init({
-        offset: 250,
-        duration: 1500
+        offset: 150,
+        duration: 500
       });
     </script>
 </body>
