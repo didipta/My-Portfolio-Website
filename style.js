@@ -16,6 +16,16 @@ $(document).ready(function(){
   });
 
 
+
+var typed=new Typed(".types",{
+      strings:["Student."],
+      typeSpeed:150,
+      backSpeed:100,
+      loop:true
+    });
+
+
+
   $(document).ready(function(){
     $(".projects").mouseover(function(){
       $(".info").delay("slow").css("display", "block");
