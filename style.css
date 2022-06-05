@@ -490,6 +490,8 @@
 }
 .all_info .info li
 {
+   
+    width: 100%;
     margin: 15px;
     font-size: 1.2em;
 
@@ -512,6 +514,7 @@
 }
 .all_info .info li h5
 {
+    max-width: 600px;
     max-width: max-content;
     margin: 5px;
     color: rgb(51, 51, 51);

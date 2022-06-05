@@ -216,7 +216,20 @@
  
   margin-left: 0px;
 }
+.all_info .info
+{
+    
+    position: relative;
+    left: 5%;
+    transform: translateX(-5%);
+    
+}
+.footer p
+{
+    font-size: 0.6rem;
+ 
 
+}
 }
 @media only screen and (max-width:1150px) {
     #Academic_peoject
