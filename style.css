@@ -45,7 +45,7 @@
 {
     width: 100%;
     height: 100vh;
-    background-color: #f1eeee;
+    background: rgb(223, 243, 248);
     position: relative;
     overflow: hidden;
     
@@ -59,7 +59,7 @@
     top:5% ;
     transform: translate(-50%,-5%);
     padding: 5px;
-    background-color: #E1E1E1;
+    background-color: #f0ecec36;
 
 }
 .navigation .logo a
@@ -421,14 +421,14 @@
   .Sms_body
   {
       width: 400px;
-      background-image: linear-gradient(rgba(251, 8, 182, 0.305), rgba(243, 62, 12, 0.399));
+      background-color: rgb(94, 101, 119);
       padding: 20px;
       position: relative;
       left: 50%;
       transform: translateX(-50%);
       margin: 10px;
       text-align: center;
-      box-shadow: 5px 5px 5px 5px rgba(205, 205, 205, 0.797);
+      box-shadow: 5px 5px 5px 5px rgba(205, 205, 205, 0.479);
       border-radius: 5px;
       
   }
@@ -436,10 +436,10 @@
   {
     max-width: 300px;
     width: 100%;
-    background-color: #f1eef0;
+    background-color: #f1eeef;
     margin: 10px 5px;
     height: 55px;
-    border-radius: 10px;
+    border-radius: 5px;
     display: grid;
     padding-left: 10px;
     grid-template-columns: 15% 85%;
