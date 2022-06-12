@@ -45,7 +45,7 @@ var typed=new Typed(".types",{
       var Emails=document.getElementById('Email').value;
       var Sudject=document.getElementById('Sudject').value;
       var Message=document.getElementById('Message').value;
-      var body='<h2>name:'+Name+'</h2><h3>email:'+Emails+'</h3><br/>' + '<br/> <h3>massege:' + Message +'</h3>'; 
+      var body='<h2>My name is'+Name+'</h2><h3>email id:<br/>'+Emails+'</h3><br/>' + '<br/> <h3>' + Message +'</h3>'; 
       if(Name!="" && Emails!="" && Sudject!="" && Message!="")
       {
         Email.send({
