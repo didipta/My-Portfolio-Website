@@ -472,13 +472,13 @@
       border-radius: 5px;
 
   }
-  .all_info
+  .about_all_info
   {
       width: 100%;
       padding: 20px;
       
   }
-.all_info .info
+.about_all_info .all_info_list
 {
     max-width: max-content;
     position: relative;
@@ -488,7 +488,7 @@
     padding: 10px;
     
 }
-.all_info .info li
+.about_all_info .all_info_list li
 {
    
     width: 100%;
@@ -496,7 +496,7 @@
     font-size: 1.2em;
 
 }
-.all_info .info li i
+.about_all_info .all_info_list li i
 {
     width: 30px;
     height: 30px;
@@ -512,7 +512,7 @@
     box-shadow: 5px 5px 5px 5px rgba(246, 246, 242, 0.655);
 
 }
-.all_info .info li h5
+.about_all_info .all_info_list li h5
 {
     max-width: 600px;
     max-width: max-content;
