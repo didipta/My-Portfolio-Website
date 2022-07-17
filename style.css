@@ -14,6 +14,10 @@
     transition: 0.3s;
 
 }
+body
+{
+    overflow-x: hidden;
+}
 #preloader
 {
     background:#ffffff url(img/preloader.gif) no-repeat center center;
@@ -149,7 +153,10 @@
 {
     width: 100%;
     height:100vh;
-    display: flex;
+    display:grid;
+    grid-template-columns:auto;
+    justify-items: center;
+    align-items: center;
     position: relative;
     top: 5%;
     
@@ -237,13 +244,14 @@
 
 #Academic_peoject
 {
-    width: 100%;
     position: relative;
     top: 1vw;
-    padding: 10px;
-    align-items: center;
-    overflow-y: auto;
-    padding-left: 10%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+
+
 }
 :is(#Academic_peoject,.projects p)::-webkit-scrollbar
 {
@@ -273,7 +281,6 @@
 }
 .projects
 {
-    display: inline-block;
     width: 350px;
     height: 600px;
     margin: 30px;
@@ -414,8 +421,9 @@
   }
   #Contact
   {
-      width: 100%;
-      overflow-x: auto;
+      display: flex;
+      justify-items: center;
+      align-items: center;
       
   }
   .Sms_body
@@ -474,8 +482,9 @@
   }
   .about_all_info
   {
-      width: 100%;
-      padding: 20px;
+      display:flex;
+      justify-items: center;
+      align-items: center;
       
   }
 .about_all_info .all_info_list
