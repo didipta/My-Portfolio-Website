@@ -419,11 +419,12 @@ body
     grid-row-gap: 1em;
     grid-template-columns: repeat(1, 1fr);
   }
-  #Contact
+  .form_part
   {
-      display: flex;
-      justify-items: center;
-      align-items: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    overflow-x: scroll;
       
   }
   .Sms_body
@@ -431,10 +432,6 @@ body
       width: 400px;
       background-color: rgb(94, 101, 119);
       padding: 20px;
-      position: relative;
-      left: 50%;
-      transform: translateX(-50%);
-      margin: 10px;
       text-align: center;
       box-shadow: 5px 5px 5px 5px rgba(205, 205, 205, 0.479);
       border-radius: 5px;
@@ -482,7 +479,7 @@ body
   }
   .about_all_info
   {
-      display:flex;
+      display:grid;
       justify-items: center;
       align-items: center;
       
@@ -490,10 +487,6 @@ body
 .about_all_info .all_info_list
 {
     max-width: max-content;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 10px;
     padding: 10px;
     
 }
@@ -501,7 +494,6 @@ body
 {
    
     width: 100%;
-    margin: 15px;
     font-size: 1.2em;
 
 }

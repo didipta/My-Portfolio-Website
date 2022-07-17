@@ -1,22 +1,5 @@
-@media only screen and (max-width:1500px) {
 
-    .projects
-    {
-        margin: 20px;
-        margin-left: 2%;
-        
-        
-    }
-}
-@media only screen and (max-width:1199px) {
-    .projects
-    {
-        margin: 10px;
-        margin-left: 1%;
-        
-        
-    }
-}
+
 @media only screen and (max-width:1155px) {
     ::-webkit-scrollbar
 {
@@ -120,7 +103,6 @@
 .img-developer .hero_img img
 {
     height: 700px;
-    margin-left: 45%;
 
 }
 .img-developer .headings .head_write
