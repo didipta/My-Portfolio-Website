@@ -1,5 +1,12 @@
 
-
+@media only screen and (min-width:1600px) and (max-width:21000px) {
+    #Top-contain
+{
+    height: 80vh;
+    
+}
+    
+}
 @media only screen and (max-width:1155px) {
     ::-webkit-scrollbar
 {
