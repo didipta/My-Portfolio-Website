@@ -18,6 +18,8 @@ body
 {
     overflow-x: hidden;
 }
+
+
 #preloader
 {
     background:#ffffff url(img/preloader.gif) no-repeat center center;
@@ -49,7 +51,7 @@ body
 {
     width: 100%;
     height: 100vh;
-    background: rgb(223, 243, 248);
+    background:    #dddddd;
     position: relative;
     overflow: hidden;
     
@@ -63,7 +65,7 @@ body
     top:5% ;
     transform: translate(-50%,-5%);
     padding: 5px;
-    background-color: #f0ecec36;
+    background-color:none;
 
 }
 .navigation .logo a
@@ -152,7 +154,6 @@ body
 .img-developer
 {
     width: 100%;
-    height:100vh;
     display:grid;
     grid-template-columns:auto;
     justify-items: center;
@@ -178,7 +179,7 @@ body
     font-size: 3em;
     font-weight:  900px;
     letter-spacing: 3px;
-    color: rgb(215, 5, 124);
+    color: #ff6f69;
     /* font-family: 'Permanent Marker', cursive; */
 }
 .head_write p, .head_write h5
@@ -241,7 +242,6 @@ body
     margin-left: 50%;
 
 }
-
 #Academic_peoject
 {
     position: relative;
