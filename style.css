@@ -140,6 +140,15 @@ body
     
 
 }
+.resume-btn
+{
+    background-image: linear-gradient(rgb(251, 77, 8), rgb(243, 12, 108));
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
 .navigation .menu 
 {
     margin: 15px;
